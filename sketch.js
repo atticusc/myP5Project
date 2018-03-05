@@ -1,7 +1,15 @@
 function setup() {
-  // put setup code here
+  createCanvas(500,500);
 }
 
 function draw() {
-  // put drawing code here
+  background("black");
+mouseClicked();
+}
+function mouseClicked(){
+  fill("pink")
+  textSize(100)
+  text("Welcome",mouseX,mouseY)
+  textSize(50);
+  text('Atticus Cohen',mouseX+50,mouseY+50)
 }
